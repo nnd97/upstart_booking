@@ -1,0 +1,60 @@
+{
+    "id": {
+        "type": "string",
+        "primary": true
+    },
+    "created_at": {
+        "type": ""
+    },
+    "created_by": {
+        "type": "string"
+    },
+    "created_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "updated_at": {
+        "type": ""
+    },
+    "updated_by": {
+        "type": "string"
+    },
+    "updated_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "deleted": {
+        "type": "boolean"
+    },
+    "deleted_by": {
+        "type": "string"
+    },
+    "deleted_at": {
+        "type": ""
+    },
+    "deleted_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "phone": {
+        "type": "string",
+        "required": true,
+        "length": 50
+    },
+    "date": {
+        "type": "datetime"
+    },
+    "slot": {
+        "type": "number"
+    },
+    "note": {
+        "type": "string",
+        "length": null
+    },
+    "contact_id": {
+        "type": "string"
+    },
+    "contact": {
+        "type": "dict"
+    }
+}

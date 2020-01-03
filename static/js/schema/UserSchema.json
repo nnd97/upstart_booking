@@ -1,0 +1,264 @@
+{
+    "id": {
+        "type": "string",
+        "primary": true
+    },
+    "created_at": {
+        "type": ""
+    },
+    "created_by": {
+        "type": "string"
+    },
+    "created_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "updated_at": {
+        "type": ""
+    },
+    "updated_by": {
+        "type": "string"
+    },
+    "updated_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "deleted": {
+        "type": "boolean"
+    },
+    "deleted_by": {
+        "type": "string"
+    },
+    "deleted_at": {
+        "type": ""
+    },
+    "deleted_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "display_name": {
+        "type": "string",
+        "length": 255
+    },
+    "phone": {
+        "type": "string",
+        "length": 50
+    },
+    "email": {
+        "type": "string",
+        "length": 100
+    },
+    "birthday": {
+        "type": "datetime"
+    },
+    "phone_other": {
+        "type": "string",
+        "length": 50
+    },
+    "email_other": {
+        "type": "string",
+        "length": 100
+    },
+    "cal_color": {
+        "type": "string",
+        "length": 25
+    },
+    "reports_to_id": {
+        "type": "string"
+    },
+    "is_admin": {
+        "type": "boolean"
+    },
+    "contact_id": {
+        "type": "string"
+    },
+    "description": {
+        "type": "string",
+        "length": null
+    },
+    "title": {
+        "type": "string",
+        "length": 50
+    },
+    "department": {
+        "type": "string",
+        "length": 50
+    },
+    "fax": {
+        "type": "string",
+        "length": 50
+    },
+    "status": {
+        "type": "string",
+        "length": 50
+    },
+    "signature": {
+        "type": "string",
+        "length": null
+    },
+    "address_street": {
+        "type": "string",
+        "length": 150
+    },
+    "address_city": {
+        "type": "string",
+        "length": 100
+    },
+    "address_state": {
+        "type": "string",
+        "length": 100
+    },
+    "address_country": {
+        "type": "string",
+        "length": 25
+    },
+    "address_postalcode": {
+        "type": "string",
+        "length": 10
+    },
+    "tz": {
+        "type": "string",
+        "length": 30
+    },
+    "holidays": {
+        "type": "string",
+        "length": 60
+    },
+    "namedays": {
+        "type": "string",
+        "length": 60
+    },
+    "workdays": {
+        "type": "string",
+        "length": 30
+    },
+    "weekstart": {
+        "type": "number"
+    },
+    "date_format": {
+        "type": "string",
+        "length": 200
+    },
+    "hour_format": {
+        "type": "string",
+        "length": 30
+    },
+    "start_hour": {
+        "type": "string",
+        "length": 30
+    },
+    "end_hour": {
+        "type": "string",
+        "length": 30
+    },
+    "is_owner": {
+        "type": "string",
+        "length": 100
+    },
+    "activity_view": {
+        "type": "string",
+        "length": 200
+    },
+    "lead_view": {
+        "type": "string",
+        "length": 200
+    },
+    "user_image": {
+        "type": "string",
+        "length": 250
+    },
+    "internal_mailer": {
+        "type": "boolean"
+    },
+    "reminder_interval": {
+        "type": "string",
+        "length": 100
+    },
+    "reminder_next_time": {
+        "type": "string",
+        "length": 100
+    },
+    "theme": {
+        "type": "string",
+        "length": 100
+    },
+    "language": {
+        "type": "string",
+        "length": 36
+    },
+    "time_zone": {
+        "type": "string",
+        "length": 200
+    },
+    "user_preferences": {
+        "type": "string",
+        "length": null
+    },
+    "currency_grouping_pattern": {
+        "type": "string",
+        "length": 100
+    },
+    "currency_decimal_separator": {
+        "type": "string",
+        "length": 2
+    },
+    "currency_grouping_separator": {
+        "type": "string",
+        "length": 2
+    },
+    "currency_symbol_placement": {
+        "type": "string",
+        "length": 20
+    },
+    "no_of_currency_decimals": {
+        "type": "string",
+        "length": 2
+    },
+    "truncate_trailing_zeros": {
+        "type": "boolean"
+    },
+    "dayoftheweek": {
+        "type": "string",
+        "length": 100
+    },
+    "callduration": {
+        "type": "string",
+        "length": 100
+    },
+    "othereventduration": {
+        "type": "string",
+        "length": 100
+    },
+    "calendarsharedtype": {
+        "type": "string",
+        "length": 100
+    },
+    "default_record_view": {
+        "type": "string",
+        "length": 10
+    },
+    "defaulteventstatus": {
+        "type": "string",
+        "length": 50
+    },
+    "defaultactivitytype": {
+        "type": "string",
+        "length": 50
+    },
+    "hidecompletedevents": {
+        "type": "number"
+    },
+    "defaultcalendarview": {
+        "type": "string",
+        "length": 100
+    },
+    "config_data": {
+        "type": ""
+    },
+    "roles": {
+        "type": "list"
+    },
+    "contact": {
+        "type": "dict"
+    }
+}

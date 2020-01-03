@@ -1,0 +1,61 @@
+{
+    "id": {
+        "type": "string",
+        "primary": true
+    },
+    "created_at": {
+        "type": ""
+    },
+    "created_by": {
+        "type": "string"
+    },
+    "created_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "updated_at": {
+        "type": ""
+    },
+    "updated_by": {
+        "type": "string"
+    },
+    "updated_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "deleted": {
+        "type": "boolean"
+    },
+    "deleted_by": {
+        "type": "string"
+    },
+    "deleted_at": {
+        "type": ""
+    },
+    "deleted_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "category": {
+        "type": "string",
+        "length": 50
+    },
+    "app_key": {
+        "type": "string",
+        "length": 128
+    },
+    "app_secret": {
+        "type": "string",
+        "length": 256
+    },
+    "token": {
+        "type": "string",
+        "length": null
+    },
+    "token_expired_at": {
+        "type": ""
+    },
+    "data": {
+        "type": ""
+    }
+}

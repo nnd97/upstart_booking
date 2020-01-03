@@ -1,0 +1,38 @@
+{
+    "id": {
+        "type": "number",
+        "primary": true
+    },
+    "port": {
+        "type": "number",
+        "required": true
+    },
+    "server_name": {
+        "type": "string",
+        "length": 30
+    },
+    "assigned_page": {
+        "type": "string",
+        "length": 255
+    },
+    "tenant_id": {
+        "type": "string",
+        "length": 12
+    },
+    "tenant_name": {
+        "type": "string",
+        "length": 100
+    },
+    "coupon_prefix": {
+        "type": "string",
+        "length": 10
+    },
+    "address": {
+        "type": "string",
+        "length": 255
+    },
+    "note": {
+        "type": "string",
+        "length": null
+    }
+}

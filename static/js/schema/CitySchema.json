@@ -1,0 +1,53 @@
+{
+    "id": {
+        "type": "string",
+        "primary": true
+    },
+    "created_at": {
+        "type": ""
+    },
+    "created_by": {
+        "type": "string"
+    },
+    "created_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "updated_at": {
+        "type": ""
+    },
+    "updated_by": {
+        "type": "string"
+    },
+    "updated_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "deleted": {
+        "type": "boolean"
+    },
+    "deleted_by": {
+        "type": "string"
+    },
+    "deleted_at": {
+        "type": ""
+    },
+    "deleted_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "city_name": {
+        "type": "string",
+        "length": 50
+    },
+    "code": {
+        "type": "string",
+        "length": 50
+    },
+    "country_id": {
+        "type": "string"
+    },
+    "country": {
+        "type": "dict"
+    }
+}

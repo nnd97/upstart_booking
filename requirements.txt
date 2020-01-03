@@ -1,0 +1,37 @@
+aiohttp
+aiofiles
+alembic
+click
+httptools
+import-string
+# itsdangerous
+Mako
+manage.py
+# MarkupSafe
+mimeparse
+python-dateutil
+python-editor
+PyYAML
+sanic
+jinja2
+git+https://github.com/gonrin/gatco.git
+git+https://github.com/gonrin/gatco_auth.git
+git+https://github.com/gonrin/gatco_jinja2.git
+git+https://github.com/gonrin/gatco_sqlalchemy
+git+https://github.com/gonrin/gatco_restapi.git
+git+https://github.com/gonrin/gatco_acl.git
+six
+SQLAlchemy
+ujson
+uvloop
+websockets
+passlib
+psycopg2-binary
+schedule
+requests
+redis
+sanic_cors
+# plotly
+# barcode dependences
+# python-barcode
+# pillow

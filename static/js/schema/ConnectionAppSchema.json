@@ -1,0 +1,74 @@
+{
+    "id": {
+        "type": "string",
+        "primary": true
+    },
+    "created_at": {
+        "type": ""
+    },
+    "created_by": {
+        "type": "string"
+    },
+    "created_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "updated_at": {
+        "type": ""
+    },
+    "updated_by": {
+        "type": "string"
+    },
+    "updated_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "deleted": {
+        "type": "boolean"
+    },
+    "deleted_by": {
+        "type": "string"
+    },
+    "deleted_at": {
+        "type": ""
+    },
+    "deleted_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "app_id": {
+        "type": "string",
+        "required": true,
+        "length": 16
+    },
+    "app_name": {
+        "type": "string",
+        "length": 100
+    },
+    "secret_key": {
+        "type": "string",
+        "required": true,
+        "length": 128
+    },
+    "type": {
+        "type": "string",
+        "length": 20
+    },
+    "scope": {
+        "type": ""
+    },
+    "permission": {
+        "type": ""
+    },
+    "tenant_id": {
+        "type": "string",
+        "length": 24
+    },
+    "tenant_name": {
+        "type": "string",
+        "length": 100
+    },
+    "expired_at": {
+        "type": ""
+    }
+}

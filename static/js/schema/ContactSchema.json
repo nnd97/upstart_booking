@@ -1,0 +1,101 @@
+{
+    "id": {
+        "type": "string",
+        "primary": true
+    },
+    "created_at": {
+        "type": ""
+    },
+    "created_by": {
+        "type": "string"
+    },
+    "created_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "updated_at": {
+        "type": ""
+    },
+    "updated_by": {
+        "type": "string"
+    },
+    "updated_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "deleted": {
+        "type": "boolean"
+    },
+    "deleted_by": {
+        "type": "string"
+    },
+    "deleted_at": {
+        "type": ""
+    },
+    "deleted_by_name": {
+        "type": "string",
+        "length": null
+    },
+    "contact_name": {
+        "type": "string",
+        "length": 255
+    },
+    "gender": {
+        "type": "string",
+        "length": 30
+    },
+    "birthday": {
+        "type": "string",
+        "length": 30
+    },
+    "bdate": {
+        "type": "number"
+    },
+    "bmonth": {
+        "type": "number"
+    },
+    "byear": {
+        "type": "number"
+    },
+    "email": {
+        "type": "string",
+        "length": 100
+    },
+    "email_other": {
+        "type": "string",
+        "length": 100
+    },
+    "phone": {
+        "type": "string",
+        "required": true,
+        "length": 50
+    },
+    "phone_other": {
+        "type": "string",
+        "length": 50
+    },
+    "address_city": {
+        "type": "string",
+        "length": 30
+    },
+    "address_code": {
+        "type": "string",
+        "length": 30
+    },
+    "address_country": {
+        "type": "string",
+        "length": 30
+    },
+    "address_state": {
+        "type": "string",
+        "length": 30
+    },
+    "address_street": {
+        "type": "string",
+        "length": 250
+    },
+    "address_pobox": {
+        "type": "string",
+        "length": 30
+    }
+}
