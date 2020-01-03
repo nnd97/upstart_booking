@@ -4,7 +4,7 @@ define(function(require) {
 	var $          = require("jquery"),
 		_          = require("underscore"),
 		Gonrin     = require("gonrin"),
-		tpl        = require("text!app/view/base/login.html"),
+		tpl        = require("text!./tpl/login.html"),
 		template   = _.template(tpl);
 		
 	return Gonrin.View.extend({

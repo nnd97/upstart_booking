@@ -36,17 +36,20 @@
         "type": "string",
         "length": null
     },
+    "booking_id": {
+        "type": "string"
+    },
     "promotion_id": {
         "type": "string",
         "length": null
     },
-    "booking_id": {
+    "payment_id": {
         "type": "string"
     },
     "payment_amount": {
         "type": "number"
     },
-    "booking": {
+    "payment_method": {
         "type": "dict"
     }
 }

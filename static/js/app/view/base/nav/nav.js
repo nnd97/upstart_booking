@@ -15,24 +15,6 @@ define(function (require) {
 			"icon": "fa fa-list-alt"
 		},
 		{
-			"text": "Port",
-			"type": "view",
-			"collectionName": "port",
-			"route": "port/collection",
-			"$ref": "app/view/port/CollectionView",
-			"icon": "fa fa-list-alt"
-		},
-		{
-			"type": "view",
-			"collectionName": "port",
-			"route": "port/model(?:id)",
-			"$ref": "app/view/port/ModelView",
-			"icon": "fa fa-list-alt",
-			"visible": function () {
-				return false;
-			}
-		},
-		{
 			"text": "Booking",
 			"type": "view",
 			"collectionName": "booking",
@@ -49,49 +31,49 @@ define(function (require) {
 			"visible": function () {
 				return false;
 			}
-		},
-		
-		{
-			"text": "Location",
-			"type": "category",
-			"entries": [
-				{
-					"text": "Country",
-					"type": "view",
-					"collectionName": "country",
-					"route": "country/collection",
-					"$ref": "app/view/location/country/CollectionView",
-					"icon": "fa fa-list-alt"
-				},
-				{
-					"type": "view",
-					"collectionName": "country",
-					"route": "country/model(?:id)",
-					"$ref": "app/view/location/country/ModelView",
-					"icon": "fa fa-list-alt",
-					"visible": function () {
-						return false;
-					}
-				},
-				{
-					"text": "City",
-					"type": "view",
-					"collectionName": "city",
-					"route": "city/collection",
-					"$ref": "app/view/location/city/CollectionView",
-					"icon": "fa fa-list-alt"
-				},
-				{
-					"type": "view",
-					"collectionName": "city",
-					"route": "city/model(?:id)",
-					"$ref": "app/view/location/city/ModelView",
-					"icon": "fa fa-list-alt",
-					"visible": function () {
-						return false;
-					}
-				}
-			]
 		}
+		
+		// ,{
+		// 	"text": "Location",
+		// 	"type": "category",
+		// 	"entries": [
+		// 		{
+		// 			"text": "Country",
+		// 			"type": "view",
+		// 			"collectionName": "country",
+		// 			"route": "country/collection",
+		// 			"$ref": "app/view/location/country/CollectionView",
+		// 			"icon": "fa fa-list-alt"
+		// 		},
+		// 		{
+		// 			"type": "view",
+		// 			"collectionName": "country",
+		// 			"route": "country/model(?:id)",
+		// 			"$ref": "app/view/location/country/ModelView",
+		// 			"icon": "fa fa-list-alt",
+		// 			"visible": function () {
+		// 				return false;
+		// 			}
+		// 		},
+		// 		{
+		// 			"text": "City",
+		// 			"type": "view",
+		// 			"collectionName": "city",
+		// 			"route": "city/collection",
+		// 			"$ref": "app/view/location/city/CollectionView",
+		// 			"icon": "fa fa-list-alt"
+		// 		},
+		// 		{
+		// 			"type": "view",
+		// 			"collectionName": "city",
+		// 			"route": "city/model(?:id)",
+		// 			"$ref": "app/view/location/city/ModelView",
+		// 			"icon": "fa fa-list-alt",
+		// 			"visible": function () {
+		// 				return false;
+		// 			}
+		// 		}
+		// 	]
+		// }
 	];
 });

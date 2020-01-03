@@ -9,7 +9,9 @@ from sqlalchemy.dialects.postgresql import UUID, JSONB
 from application.database import db
 from application.database.model import CommonModel
 
-
+items_categories =  db.Table('items_categories',
+                    db.Column('item_id', UUID(as_uuid=True), db.ForeignKey('item.id', ondelete='cascade', onupdate='cascade'), primary_key=True),
+                    db.Column('category_id', UUID(as_uuid=True), db.ForeignKey('item_category.id', ondelete='cascade', onupdate='cascade'), primary_key=True))
 
 class ItemCategory(CommonModel):
     __tablename__ = 'item_category'

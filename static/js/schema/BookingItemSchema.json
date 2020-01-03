@@ -39,9 +39,12 @@
     "booking_id": {
         "type": "string"
     },
+    "item_id": {
+        "type": "string",
+        "length": null
+    },
     "item_name": {
         "type": "string",
-        "required": true,
         "length": null
     },
     "quantity": {
@@ -50,8 +53,5 @@
     "note": {
         "type": "string",
         "length": null
-    },
-    "booking": {
-        "type": "dict"
     }
 }

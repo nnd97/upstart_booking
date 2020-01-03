@@ -42,10 +42,12 @@
         "length": 50
     },
     "date": {
-        "type": "datetime"
+        "type": "datetime",
+        "required": true
     },
     "slot": {
-        "type": "number"
+        "type": "number",
+        "required": true
     },
     "note": {
         "type": "string",
@@ -56,5 +58,8 @@
     },
     "contact": {
         "type": "dict"
+    },
+    "booking_items": {
+        "type": "list"
     }
 }
